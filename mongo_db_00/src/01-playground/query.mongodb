@@ -1,0 +1,9 @@
+// Indicamos a DB nos queremos conectar, es decir que DB queremos usar de todas las que tenemos disponibles
+use("sample_training");
+
+// Palabra clave db
+// Consultamos todas las ciudades NY
+// db.zips.find({ state: "NY" });
+
+// Contabilizamos la cantidad de ciudades que coinciden
+db.zips.find({state:"NY"}).count(); //1596
