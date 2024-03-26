@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/coxmau77/mongo_db/issues"
   },
-  "homepage": "https://github.com/coxmau77/mongo_db#readme"
+  "homepage": "https://github.com/coxmau77/mongo_db#readme",
+  "dependencies": {
+    "express": "4.19.2"
+  }
 }

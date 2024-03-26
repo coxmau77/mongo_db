@@ -1,10 +1,13 @@
-const http = require('node:http');
+const express = require('express');
+const app = express();
 const port = 3000;
 
-const server = http.createServer((request, response) => {
-    response.end('request recibido')
+app.get('/', (request, response) => {
+    response.send('Hola mundo');
 });
 
-server.listen(port, () => {
-    console.log('puerto y servidor funcionando');
-})
+
+app.listen(port, () => {
+    console.log(`Puerto activo en http://localhost:${port}`)
+});
+// https://youtu.be/xkHyM-K3Cd8?list=PLPl81lqbj-4Iy7yuRrVLn4V6isOVpvlpl
