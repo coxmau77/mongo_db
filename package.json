@@ -4,7 +4,8 @@
   "description": "APP con node y mongoDB",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch index.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/coxmau77/mongo_db/issues"
   },
-  "homepage": "https://github.com/coxmau77/mongo_db#readme",
-  "dependencies": {
-    "moment": "2.30.1"
-  }
+  "homepage": "https://github.com/coxmau77/mongo_db#readme"
 }

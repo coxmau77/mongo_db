@@ -10,6 +10,12 @@
 
 4. Instlacion de dependecia `npm i moment -E`
 
+5. Manipulacion de versiones en dependencias
+
+6. Desinstalar una dependencia `npm uninstall moment`
+
+7. Servidor `http`
+
 3. Creacion de directorio necesario en nuestro proyecto `src`
 
 
