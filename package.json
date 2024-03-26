@@ -1,0 +1,29 @@
+{
+  "name": "mongo_db",
+  "version": "0.0.1",
+  "description": "APP con node y mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coxmau77/mongo_db.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongo",
+    "db",
+    "jwt"
+  ],
+  "author": "Mauricio Cox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coxmau77/mongo_db/issues"
+  },
+  "homepage": "https://github.com/coxmau77/mongo_db#readme",
+  "dependencies": {
+    "moment": "2.30.1"
+  }
+}
