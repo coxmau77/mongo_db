@@ -6,7 +6,7 @@
 
 2. Tener instalado `node js`, verificar version en tu equipo.
 
-. Creacion de directorio necesario en nuestro proyecto `src`
+3. Creacion de directorio necesario en nuestro proyecto `src`
 
 
 
