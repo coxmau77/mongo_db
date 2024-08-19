@@ -2,10 +2,10 @@
   "name": "mongo_db",
   "version": "0.0.1",
   "description": "APP con node y mongoDB",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "repository": {
     "type": "git",
