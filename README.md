@@ -17,12 +17,3 @@
 7. Servidor `http`
 
 8. Servidor con Express
-
-3. Creacion de directorio necesario en nuestro proyecto `src`
-
-
-
-
-
-
-
